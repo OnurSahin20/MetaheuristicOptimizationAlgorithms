@@ -2,17 +2,17 @@
 This repository contains 4 metaheuristic search algorithms 1) Genetic Algorithm 2) Differential Evolution 3) Cuckoo Search 4) Harmony Search and I used minimization problem which called the Michalewicz test function for the performance of algorithms. I don't test algorithms carefully therefore somewhere in the codes which probably be some problems. I've been trying to write codes as efficiently as possible written in Python. My request you who will look into codes please criticize me and show my mistakes or better way to write code. Contact with me at ogungorsahin@gmail.com 
 Examples
 
-def michalewicz(xx):
-    mm = 10
-    n1 = np.shape(xx)[0]
-    n2 = np.shape(xx)[1]
-    outputs = np.zeros((n1, 1))
-    for i in range(n1):
-        s = 0
-        for j in range(1, n2 + 1):
-            s = s + np.sin(xx[i, j - 1]) * (np.sin(j * xx[i, j - 1] ** 2 / np.pi)) ** (2 * mm)
-        outputs[i,0] = -s
-    return outputs
+    def michalewicz(xx):
+        mm = 10
+        n1 = np.shape(xx)[0]
+        n2 = np.shape(xx)[1]
+        outputs = np.zeros((n1, 1))
+        for i in range(n1):
+            s = 0
+            for j in range(1, n2 + 1):
+                s = s + np.sin(xx[i, j - 1]) * (np.sin(j * xx[i, j - 1] ** 2 / np.pi)) ** (2 * mm)
+            outputs[i,0] = -s
+        return outputs
  
 1) Genetic Algorithm 
 nd = 5
