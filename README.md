@@ -13,8 +13,7 @@ Examples
                 s = s + np.sin(xx[i, j - 1]) * (np.sin(j * xx[i, j - 1] ** 2 / np.pi)) ** (2 * mm)
             outputs[i,0] = -s
         return outputs
- 
-1) Genetic Algorithm 
+    1) Genetic Algorithm 
     nd = 5
     lb = np.array([0] * nd)
     ub = np.array([np.pi] * nd)
@@ -34,7 +33,7 @@ Examples
     plt.legend()
     plt.show()
     
-2) DEA
+    2) DEA
     nd = 10
     CR = 0.5
     nd = 10
@@ -52,13 +51,13 @@ Examples
     plt.ylabel("OBJECTİVE VALUES", color="blue")
     plt.legend()
     plt.show()
-3) Cuckoo Search
+    3) Cuckoo Search
     N = 15  # number of nests
     total_iter = 100000
     pa = 0.25
     outputs = cuckoo_search(N, pa, nd, lb, ub, michalewicz)
     Just Cuckoo's parameters differ and rest of codes same as DEA
-4) Harmony Search 
+    4) Harmony Search 
     HMS = 50
     PAR = 0.2
     HMCR = 0.9
