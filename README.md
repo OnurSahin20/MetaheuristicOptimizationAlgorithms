@@ -1,5 +1,5 @@
 # MetaheuristicOptimizationAlgorithms
-This repository contains 4 metaheuristic search algorithms 1) Genetic Algorithm 2) Differential Evolution 3) Cuckoo Search 4) Harmony Search and I used minimization problem which called the Michalewicz test function for the performance of algorithms. I don't test algorithms carefully therefore somewhere in the codes which probably be some problems. I've been trying to write codes as efficiently as possible written in Python. My request you who will look into codes please criticize me and show my mistakes or better way to write code. Contact with me at ogungorsahin@gmail.com 
+This repository contains 4 metaheuristic search algorithms 1) Genetic Algorithm 2) Differential Evolution 3) Cuckoo Search 4) Harmony Search and I used minimization problem which called the Michalewicz test function for the performance of algorithms. I don't test algorithms carefully, therefore somewhere in the codes there might be some flaws. I've been trying to write codes as efficiently as possible written in Python. My request you who will look into codes please criticize me and show my mistakes or better way to write code. Contact with me at ogungorsahin@gmail.com 
 Examples
 
     def michalewicz(xx):
